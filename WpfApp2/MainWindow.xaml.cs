@@ -28,30 +28,30 @@ namespace WpfApp2
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             int correctAnswers = 0;
-            foreach (RadioButton radioButton in Question_1.Children)
+            foreach (CheckBox checkBox in Question_1.Children)
             {
-                if (radioButton.IsChecked == true && radioButton.Name == "Answer_1")
+                if (checkBox.IsChecked == true && checkBox.Name == "Answer_1")
                 {
                     correctAnswers += 1;
                 }
             }
-            foreach (RadioButton radioButton in Question_2.Children)
+            foreach (CheckBox checkBox in Question_2.Children)
             {
-                if (radioButton.IsChecked == true && radioButton.Name == "Answer_24")
+                if (checkBox.IsChecked == true && checkBox.Name == "Answer_24")
                 {
                     correctAnswers += 1;
                 }
             }
-            foreach (RadioButton radioButton in Question_3.Children)
+            foreach (CheckBox checkBox in Question_3.Children)
             {
-                if (radioButton.IsChecked == true && radioButton.Name == "Answer_34")
+                if (checkBox.IsChecked == true && checkBox.Name == "Answer_34")
                 {
                     correctAnswers += 1;
                 }
             }
-            foreach (RadioButton radioButton in Question_4.Children)
+            foreach (CheckBox checkBox in Question_4.Children)
             {
-                if (radioButton.IsChecked == true && radioButton.Name == "Answer_42")
+                if (checkBox.IsChecked == true && checkBox.Name == "Answer_42")
                 {
                     correctAnswers += 1;
                 }

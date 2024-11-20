@@ -7,45 +7,45 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <StackPanel>
-        <TextBlock FontSize="20">
-            Пройдите краткий опрос на адекватность
+        <TextBlock FontSize="20" Foreground="DarkGray">
+        Пройдите краткий опрос на адекватность
         </TextBlock>
-        <TextBlock FontSize="14">
-        Вопрос 1: Ваш пол?
+        <TextBlock FontSize="14" Background="LightGray">
+    Вопрос 1: Ваш пол?
         </TextBlock>
         <StackPanel Name="Question_1">
-            <RadioButton Name="Answer_1" GroupName="Q1" Content="Мужской"/>
-            <RadioButton Name="Answer_2" GroupName="Q1" Content="Женский"/>
-            <RadioButton Name="Answer_3" GroupName="Q1" Content="Третий("/>
-            <RadioButton Name="Answer_4" GroupName="Q1" Content="Собака"/>
+            <CheckBox Name="Answer_1" Content="Мужской"/>
+            <CheckBox Name="Answer_2" Content="Женский"/>
+            <CheckBox Name="Answer_3" Content="Третий("/>
+            <CheckBox Name="Answer_4" Content="Собака"/>
         </StackPanel>
-        <TextBlock FontSize="14">
-            Вопрос 2: Сколько сторон у многоугольника?
+        <TextBlock FontSize="14" Background="LightGray">
+        Вопрос 2: Сколько сторон у многоугольника?
         </TextBlock>
         <StackPanel Name="Question_2">
-            <RadioButton Name="Answer_21" GroupName="Q2" Content="6"/>
-            <RadioButton Name="Answer_22" GroupName="Q2" Content="243"/>
-            <RadioButton Name="Answer_23" GroupName="Q2" Content="1"/>
-            <RadioButton Name="Answer_24" GroupName="Q2" Content="Много"/>
+            <CheckBox Name="Answer_21" Content="6"/>
+            <CheckBox Name="Answer_22" Content="243"/>
+            <CheckBox Name="Answer_23" Content="1"/>
+            <CheckBox Name="Answer_24" Content="Много"/>
         </StackPanel>
-        <TextBlock FontSize="14">
-            Вопрос 3: Что сделает адекватный студент если одной пары не будет?
+        <TextBlock FontSize="14" Background="LightGray">
+                Вопрос 3: Что сделает адекватный студент если одной пары не будет?
         </TextBlock>
         <StackPanel Name="Question_3">
-            <RadioButton Name="Answer_31" GroupName="Q3" Content="Пойдет на остальные пары"/>
-            <RadioButton Name="Answer_32" GroupName="Q3" Content="Сасиски)"/>
-            <RadioButton Name="Answer_33" GroupName="Q3" Content="Останется дома"/>
-            <RadioButton Name="Answer_34" GroupName="Q3" Content="Отчислится"/>
+            <CheckBox Name="Answer_31" Content="Пойдет на остальные пары"/>
+            <CheckBox Name="Answer_32" Content="Сасиски)"/>
+            <CheckBox Name="Answer_33" Content="Останется дома"/>
+            <CheckBox Name="Answer_34" Content="Отчислится"/>
         </StackPanel>
-        <TextBlock FontSize="14">
-    Вопрос 4: Было два козла, кто упал?
+        <TextBlock FontSize="14" Background="LightGray">
+                Вопрос 4: Было два козла, кто упал?
         </TextBlock>
         <StackPanel Name="Question_4">
-            <RadioButton Name="Answer_41" GroupName="Q4" Content="Оба"/>
-            <RadioButton Name="Answer_42" GroupName="Q4" Content="Рубль"/>
-            <RadioButton Name="Answer_43" GroupName="Q4" Content="Первый"/>
-            <RadioButton Name="Answer_44" GroupName="Q4" Content="Второй"/>
+            <CheckBox Name="Answer_41" Content="Оба"/>
+            <CheckBox Name="Answer_42" Content="Рубль"/>
+            <CheckBox Name="Answer_43" Content="Первый"/>
+            <CheckBox Name="Answer_44" Content="Второй"/>
         </StackPanel>
-        <Button Content="Отправить" Width="161" Height="60" Click="Button_Click"/>
+        <Button Content="Отправить" Width="160" Height="50" Click="Button_Click" Margin="10" HorizontalAlignment="Left"/>
     </StackPanel>
 </Window>
